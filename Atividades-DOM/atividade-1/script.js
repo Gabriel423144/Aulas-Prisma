@@ -12,11 +12,11 @@ let Seletor = document.getElementById("seletor");
 body.style.backgroundColor = "gray";
 const btnRemover = document.getElementById("BotaoRemover");
 
-btnRemover.addEventListener("click", () =>{
+btnRemover.addEventListener("click", () => {
   if (lista.lastChild) {
     lista.removeChild(lista.lastChild);
   }
-})
+});
 
 botao.addEventListener("click", () => {
   let item = document.createElement("li");
@@ -37,4 +37,3 @@ diminuir.addEventListener("click", () => {
 Seletor.addEventListener("input", (color) => {
   body.style.backgroundColor = Seletor.value;
 });
-
