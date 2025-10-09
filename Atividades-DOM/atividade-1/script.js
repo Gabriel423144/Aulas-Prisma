@@ -7,15 +7,23 @@ const texto = document.getElementById("tituloContador");
 const body = document.getElementById("corpo");
 let botao = document.getElementById("Add");
 let lista = document.getElementById("lista");
-let botaoAzul = document.getElementById("azul");
-let botaoVermelho = document.getElementById("vermelho");
-let botaoVerde = document.getElementById("verde");
 let Seletor = document.getElementById("seletor");
 body.style.backgroundColor = "gray";
 const btnRemover = document.getElementById("BotaoRemover");
+let exibir = document.getElementById("ex")
+let esconder = document.getElementById("es")
+let textoexes =  document.getAnimations("p")
+
+exibir.addEventListener("click", () => {
+  textoexes.style.display = block
+})
+
+esconder.addEventListener("click", () => {
+  textoexes.style.display = none
+})
 
 botaoTitle.addEventListener("click", () => {
-  innerText = "site de testes"
+  titulo.innerText = "site de testes"
 })
 
 btnRemover.addEventListener("click", () => {
