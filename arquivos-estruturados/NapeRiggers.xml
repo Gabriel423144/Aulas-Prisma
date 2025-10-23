@@ -1,0 +1,12 @@
+<Lista> 
+   <Pokemon>
+       <Nome>Bulbasaur</Nome>
+       <Pokedex>1</Pokedex>
+       <Tipo>Grama/Venenoso</Tipo>
+   </Pokemon>
+   <Pokemon>
+       <Nome>Charmander</Nome>
+       <Pokedex>4</Pokedex>
+       <Tipo>Fogo</Tipo>
+   </Pokemon>  
+</Lista>

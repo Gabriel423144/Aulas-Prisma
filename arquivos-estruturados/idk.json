@@ -1,0 +1,12 @@
+[
+    {
+        "nome":"Bulbassauro",
+        "pokedex":1,
+        "tipo":"Grama/Venenoso"
+    },
+    {
+        "nome":"Metapod",
+        "pokedex":11,
+        "tipo":"Inseto"
+    }
+]
