@@ -1,38 +1,38 @@
 :root{
     --cor-primaria: aquamarine;
-    --cor-secundaria: rgba(18, 10, 44) ;
-    --cor-de-efeito: rgb(39, 141, 107);
+    --cor-secundaria: rgb(18, 10, 44);
+    --cor-efeito: rgb(58, 176, 137);
 }
 
 *{
     padding: 0;
     margin: 0;
 }
-
 body{
-    background-color: black;
-    color: aquamarine;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     width: 100vw;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
 h1{
-    font-size: 3em;
+    font-size: 2em;
 }
-
 p{
     font-size: 4em;
-}
-
-.Relogio, .Cronometro{
     border: 2px solid aquamarine;
     border-radius: 30px;
     padding: 20px;
+
+    box-shadow: 0px 0px 10px 10px rgb(41, 158, 119);
+    margin: 20px;
+}
+.Relogio, .Cronometro{
+    text-align: center;
 }
 
 button{
@@ -40,10 +40,9 @@ button{
     padding: 5px;
     border-radius: 15px;
     background-color: var(--cor-primaria);
-
     cursor: pointer;
 }
 
 button:hover{
-    background-color: var(--cor-de-efeito);
+    background-color: var(--cor-efeito);
 }
