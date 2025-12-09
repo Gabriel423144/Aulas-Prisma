@@ -1,9 +1,9 @@
 let time = 10;          
 let interval = null;    
 
-const display = document.getElementById("display");
-const btnStart = document.getElementById("start");
-const btnStop = document.getElementById("stop");
+let display = document.getElementById("display");
+let btnStart = document.getElementById("start");
+let btnStop = document.getElementById("stop");
 
 
 function updateDisplay() {

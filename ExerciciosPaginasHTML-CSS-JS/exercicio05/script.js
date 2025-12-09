@@ -1,7 +1,7 @@
-const body = document.body;
-const btn = document.getElementById('toggle-theme');
+let body = document.body;
+let btn = document.getElementById('toggle-theme');
 
-const savedTheme = localStorage.getItem('theme');
+let savedTheme = localStorage.getItem('theme');
 
 if (savedTheme === 'dark') {
     body.classList.add('dark-mode');
