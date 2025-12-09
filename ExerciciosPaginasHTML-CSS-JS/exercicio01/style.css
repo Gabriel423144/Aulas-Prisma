@@ -1,0 +1,18 @@
+body{
+    background-color: azure;
+}
+
+.cartao{
+    background-color: pink;
+    width: 350px;
+    box-shadow: 10px 10px 10px rgb(255, 106, 131);
+    text-align: center;
+}
+
+.foto{
+    width: 80%;
+}
+
+.esconder{
+    display: none;
+}
